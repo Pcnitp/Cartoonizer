@@ -1,5 +1,5 @@
 # Cartoonizer
-To get a cartoonized version of a image using opencv
+To get a cartoonized version of a image using OpenCv
 
 tried in two different ways:
 1) cartoon.py
