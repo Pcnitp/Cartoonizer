@@ -1,7 +1,7 @@
 #Importing libraries
 import tkinter
 import cv2
-from tkinter import filedialog
+from tkinter import *
 import imutils
 
 #Creating a Window as user interface
@@ -44,7 +44,9 @@ def helper():
     cv2.waitKey(0)
     cv2.destroyAllWindows()
     
+lable=tkinter.Label(window, text="Click on upload to select an image")
 B=tkinter.Button(window, text="Upload",command=helper)
 
 B.pack()
+lable.pack()
 window.mainloop()
